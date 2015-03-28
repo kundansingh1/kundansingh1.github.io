@@ -1,0 +1,405 @@
+/**
+ *  File        :-    Codesnapz Login CSS Stylesheet
+ *  License     :-    
+ *  @copyright  :-    Copyright (C) 2013 - 2014 Codesnapz. All rights reserved.
+ */
+  
+ /*====================   
+        Page
+ =====================*/
+        
+   BODY {
+  
+  BACKGROUND: #ffffff !important;
+      background-image: url("http://themescreators.com/ela/files/2014/05/photo_1.jpg") !important;
+    background-repeat: no-repeat;
+}
+ @font-face {
+    font-family: "AvenirNextRoundedW01-De";
+    src: url("//d1ohp0h9n9u652.cloudfront.net/assets/AvenirNextRoundedW01-De.eot?#iefix") format("eot"), url("//d1ohp0h9n9u652.cloudfront.net/assets/AvenirNextRoundedW01-De-2b224490202aef97bfdf0155c45c8f76.woff")       format("woff"), url("//d1ohp0h9n9u652.cloudfront.net/assets/AvenirNextRoundedW01-De-6bcd8c1c98e54d9b9016ad8da3715b5c.ttf") format("truetype"), url("//d1ohp0h9n9u652.cloudfront.net/assets/AvenirNextRoundedW01-       De-fb3eed121c90a85ebe2e70afec427bc4.svg") format("svg");
+}
+body {
+  
+    font-family: "AvenirNextRoundedW01-De",sans-serif;
+    font-weight: normal; 
+    font-size: 18px
+  
+}
+ /*====================   
+        Logo
+ =====================*/ 
+ .cs-logo {
+  
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.cs-light-logo {
+  
+  
+     color: #D7DFE6;
+     
+  
+}
+ 
+ /*====================   
+        Blocks
+ =====================*/
+ 
+/* Main Container */
+#cs-login-container {
+    
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	min-height: 100%;
+	max-width: 630px;
+	min-width: 120px;
+	position: relative;
+    transition: all 200ms ease-in-out 0s;  
+}
+
+ /* Wrapper of columns */
+.cs-login-wrapper {
+    
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+  	position: absolute;
+	display: table;
+	overflow: auto;   
+}
+
+ /* Dark column */
+.cs-login-block-dark {
+    
+    background-color: rgba(20, 23, 28, 0.58);
+  
+}
+ /* Light column */
+.cs-login-block-light {
+    
+ background-color:rgba(20, 23, 28, 0.97)
+
+}
+
+
+
+.cs-block-spacer-right-col {
+    position: relative;
+    top: -42px;
+}
+
+
+ /*====================   
+      Form Elements
+ =====================*/
+ 
+ /* Form Wrapper */ 
+.cs-form {
+  
+    border: none;
+    padding: 20px 0 0;
+    width: 100%;
+    margin: 0;
+  
+}
+.cs-fieldset {
+  
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    
+  
+}
+
+.cs-input {
+
+   border-radius: 5px;
+   margin-bottom: 20px;
+   padding: 20px 10px;
+   box-sizing: border-box;
+   font-size: 18px;
+   transition: all 200ms ease-in-out 0s;
+}
+.cs-input-dark {
+
+    background-color:rgba(28, 28, 28 ,0.8);
+    border: 1px solid rgba(20, 23, 28, 0.9);
+    color: #A3AAB1;
+}
+.cs-input-full {
+
+   width: 100%
+
+}
+.cs-input:focus {
+
+    border:1px solid #1E242A;
+	color: #ffffff;
+
+
+}
+
+
+ /*====================   
+        Buttons
+ =====================*/
+ .cs-btn {
+
+  
+    border: 1px solid;
+    border-style: none;
+	 border-radius: 6px;  
+	 color: #FFFFFF;	   
+    
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: inherit;
+    font-weight: 200;	
+    padding: 15px 39px 18px;
+    font-size: 16px;    
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.cs-btn-full {
+
+    width: 100%
+
+}
+
+.cs-btn-form {
+  
+    margin-bottom: 20px;
+  
+}
+
+
+.cs-btn-light-grey {
+  
+    background: none;  
+    border-top: 1px solid #14171c ;
+    border-bottom: 1px solid #14171c ;
+    margin-bottom: -1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color:#5d5b5b;
+    border-radius: 0px;
+    text-align: left;
+}
+.cs-btn-first {
+    
+    border-top-right-radius: 5px;
+    
+}
+.cs-btn-light-grey:hover {
+
+    color:#ffffff;
+     background-color:rgba(20, 23, 28, 0.98);
+    
+}
+.cs-btn-dark {
+  
+   background: #3E4A58;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+   margin-bottom: 10px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-size: 14px;
+   color:#B2BAC3;
+}
+.cs-btn-dark {
+
+    color:#ffffff;
+}
+
+.cs-btn-blue {
+
+    background: #3598DB;
+    border-bottom: 1px solid rgba(28, 24, 122, 0.75);
+
+}
+
+.cs-btn-blue:hover, .cs-btn-blue:focus, .cs-btn-blue:active {
+    background: none repeat scroll 0 0 #2A7FB8 !important;
+      
+}
+
+
+.cs-form a {
+  
+    
+  color: #1E242B;
+  font-size:14px;
+  
+}
+
+ 
+ /*====================   
+      Social Icons
+ =====================*/
+.cs-social {
+  
+  text-align: center;
+  margin-top: 10px
+  
+}
+
+.cs-icons {
+  
+  
+  color: #1e242b;
+  cursor: pointer;
+  transition: all 200ms ease-in-out 0s;
+}
+.cs-icons:hover {color: #65BE3E;}
+
+.cs-icon {margin-right: 20px;}
+
+.cs-icon-last {margin-right: 0px;}
+
+.cs-facebook { color: #1e242b;}
+.cs-twitter { color: #1e242b;} 
+.cs-google { color: #1e242b;}
+.cs-vimeo { color: #1e242b;}
+
+.cs-facebook:hover { color: #41C8F5;}
+.cs-twitter:hover  { color: #41C8F5;} 
+.cs-google:hover  { color: #41C8F5;}
+.cs-vimeo:hover  { color: #41C8F5;}
+/*====================   
+      Misc Classes
+ =====================*/
+.cs-end {clear: all;}
+
+.cs-vertical-align {
+    
+   margin-top: 10%;
+   margin-bottom: 20px;   
+}
+
+.cs-block-spacer { padding: 40px 40px 40px 40px;}
+.cs-block-spacer-right-col { padding: 0; max-height:436px}
+
+/*====================   
+      Media Queries
+ =====================*/
+/* Small */ 
+@media all and (max-width : 700px) {
+
+    
+  .cs-block-spacer-right-col {
+    position: relative;
+    top: 0px;
+}
+  
+    
+  .cs-btn-first {
+    
+    border-top-right-radius: 0px;
+    
+}
+ .cs-login-wrapper {
+
+	  display: block;
+     
+ }
+  
+ .cs-login-block-dark {
+
+       float: none;
+       width: 100%;
+     
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;  
+     
+       border-bottom-left-radius: 0px;
+       border-bottom-right-radius: 0px; 
+     
+       display: block;
+     
+     
+  }
+  
+    .cs-login-block-light {
+    
+
+     float: none;
+     width: 100%;
+
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;  
+     
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;  
+      
+     display:block;
+     
+   } 
+    
+
+}
+
+/* Large screen */ 
+@media all and (min-width : 700px) {
+
+.cs-block-spacer-right-col {
+    position: relative;
+    top: -42px;
+}
+    
+    
+  .cs-login-wrapper {
+
+	  display: table;
+   
+  }   
+  .cs-btn-first {
+    
+    border-top-right-radius: 5px;
+    
+}    
+   .cs-login-block-dark {
+    
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;  
+     
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 0px;
+     
+    
+        margin: 0px;	
+        width: 60%;
+        display: table-cell;
+        padding-bottom:4px; 
+  
+    }
+    
+    
+   .cs-login-block-light {
+     
+        border-top-left-radius: 0px;
+        border-top-right-radius: 5px;  
+     
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 5px;
+        width: 30%;
+        display: table-cell;
+     
+    } 
+    
+
+}
+
+
+
