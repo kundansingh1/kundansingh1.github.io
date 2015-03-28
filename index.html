@@ -1,0 +1,136 @@
+<head>
+  
+ <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<div id="cs-login-container">
+    
+   <div class="cs-login-wrapper cs-vertical-align">
+       
+     <div style="padding: 0px">
+         
+         <div class="cs-login-block-dark">
+             
+             <div class="cs-block-spacer">
+  
+               <h1 class="cs-logo">code<span class="cs-light-logo">snapz</span></h1>                  
+               <form action="<?php echo JRoute::_('index.php', true, $params->get('usesecure')); ?>" method="post" id="form-login" class="cs-form">     
+                    <fieldset class="cs-fieldset">
+                    
+                       <input name="username" tabindex="1" id="mod-login-username" class="cs-input cs-input-dark cs-input-full" type="" placeholder="Username / eMail">
+                      
+                       <input name="passwd" tabindex="2" id="mod-login-password" class="cs-input cs-input-dark cs-input-full" type="" placeholder="Password">
+                      
+                       <button class="cs-btn cs-btn-full cs-btn-blue cs-btn-form" tabindex="3" href="#">
+						             
+                         Log in	
+                         
+                       </button>   
+                       
+                      <a href="<?php echo JUri::root(); ?>index.php?option=com_users&view=reset"> Forgot your username?</a>
+                      <a style="float: right" href="<?php echo JUri::root(); ?>index.php?option=com_users&view=remind"> Forgot your username?</a>
+                      
+		<input type="hidden" name="option" value="com_login"/>
+		<input type="hidden" name="task" value="login"/>
+		<input type="hidden" name="return" value="<?php echo $return; ?>"/>
+		<?php echo JHtml::_('form.token'); ?>	  
+		
+
+                    </fieldset>     
+               </form>  		
+					  
+                      <div class="cs-social">
+                        
+                 <span>
+                   <a href="https://google.com/codesnapz" >
+                     <i class="cs-google cs-icons cs-icon fa fa-google-plus-square fa-2x"></i>
+                   </a>
+                 </span>
+                 <span>
+                   <a href="https://vimeo.com/user32302588" >
+                     <i class="cs-twitter cs-icons cs-icon fa fa-vimeo-square fa-2x"></i>
+                   </a>
+                 </span>
+                 <span>
+                   <a href="https://facebook.com/codesnapz" >
+                     <i class="cs-facebook cs-icons cs-icon fa fa-facebook-square fa-2x"></i>
+                   </a>
+                 </span>
+                 <span>
+                   <a href="https://twitter.com/codesnapz" >
+                     <i class="cs-vimeo cs-icons cs-icon-last fa fa-twitter-square fa-2x"></i>
+                   </a>
+                 </span>
+                        
+                      </div>
+
+             </div>
+         </div>
+     
+  
+     
+     
+     
+         <div class="cs-login-block-light">
+             <div class="cs-block-spacer-right-col">
+                 
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-first cs-btn-form" tabindex="3">
+						  
+                            
+                         <i class="fa fa-line-chart fa-2x"></i><span style="padding-left: 20px;"> Xero </span>
+                         
+                       </button>  
+                 
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-cc-stripe fa-2x"></i><span style="padding-left: 20px;"> Stripe </span>	
+                         
+                       </button>  
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-send fa-2x"></i><span style="padding-left: 20px;"> Hosting </span>	
+                         
+                       </button>                 
+                       <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-comments fa-2x"></i><span style="padding-left: 20px;"> Support Login </span>	
+                         
+                       </button>                   
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-text-height fa-2x"></i><span style="padding-left: 20px;"> Branding </span>	
+                         
+                       </button>                            
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-envelope fa-2x"></i><span style="padding-left: 20px;"> Mailchimp </span>	
+                         
+                       </button>                    
+                 
+  
+                         <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-dot-circle-o fa-2x"></i><span style="padding-left: 20px;"> --- </span>	
+                         
+                       </button>                            
+                        <button class="cs-btn cs-btn-full cs-btn-light-grey cs-btn-form" tabindex="3">
+						             
+                         <i class="fa fa-dot-circle-o fa-2x"></i><span style="padding-left: 20px;"> --- </span>	
+                         
+                       </button>                    
+                                 
+                
+             </div>  
+         </div>
+     
+             <div class"cs-end"></div>
+     
+     </div>
+           <p style="padding-top: 30px; text-align: center; color: #1e242b ; font-size: 14px;">Crafted with <span style="color: #A8243A;"><i class="fa fa-heart"></i>
+</span> from Australia</p>
+    <p style="text-align: center; color: #1e242b ; font-size: 14px;"><span><i class="fa fa-copyright"></i>
+</span> 2013-14 Codesnapz</p>
+</div> 
+
+</div>  
